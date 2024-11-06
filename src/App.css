@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin-top: 5em;
 }
 
 .App-logo {
@@ -11,6 +12,14 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+#checkBox {
+  margin-left: 15em;
+}
+
+#checkBoxText {
+  margin-left: 0.5em;
 }
 
 .App-header {
@@ -32,6 +41,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
